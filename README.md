@@ -20,7 +20,7 @@ This file does post-processing for .conll10 files. This includes:
 - Correction of words with errors, such as 'na#hexlīf' --> 'naxlīf'
 - Replace the tag of negation from ADV to PART
 - Correction of 'empty_pronoun' cases.
-- Splitting pronouns.
+- Splitting possessive pronouns.
 - Change 'iobj' to 'nmod', only if token has a dependent with label 'case'.
 The output is .conll10 file(s) with the same name + '_out'.
 Assamptions for input .conll10 files: every sentence ends with punctuation
